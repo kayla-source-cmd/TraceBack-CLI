@@ -1,0 +1,11 @@
+{
+    "exception": null,
+    "message": "Unknown or unsupported exception",
+    "details": [
+        {
+            "filename": "app.py",
+            "line_number": 8,
+            "function": "calculate"
+        }
+    ]
+}

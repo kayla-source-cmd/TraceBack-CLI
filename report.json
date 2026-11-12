@@ -1,0 +1,19 @@
+{
+    "exception": "ValueError",
+    "description": "Raised when a function receives an inappropriate value.",
+    "causes": [
+        "Converting invalid text to a number",
+        "Providing an unacceptable value"
+    ],
+    "suggestions": [
+        "Check the value being supplied",
+        "Validate input before processing"
+    ],
+    "details": [
+        {
+            "filename": "app.py",
+            "line_number": 3,
+            "function": "main"
+        }
+    ]
+}
