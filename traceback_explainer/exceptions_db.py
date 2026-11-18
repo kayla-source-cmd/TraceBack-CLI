@@ -1,4 +1,3 @@
-
 EXCEPTIONS = {
     "NameError": {
         "description": "Raised when Python tries to access a name that is not defined.",
@@ -64,5 +63,17 @@ EXCEPTIONS = {
             "Use dict.get() when a key might be missing"
         ],
         "example": "person = {}; print(person['name'])"
+    },
+
+    "ZeroDivisionError": {
+        "description": "Raised when division by zero is attempted.",
+        "causes": [
+            "Dividing a number by zero"
+        ],
+        "suggestions": [
+            "Check the divisor before dividing",
+            "Handle zero values before division"
+        ],
+        "example": "10 / 0"
     }
 }

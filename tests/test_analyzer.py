@@ -48,4 +48,11 @@ class TestIdentifyException(unittest.TestCase):
         self.assertEqual(result["exception"], "NameError")
         self.assertIn("description", result)
         self.assertIn("causes", result)
-        self.assertIn("suggestions", result)    
+        self.assertIn("suggestions", result)
+
+    def test_returns_none_for_empty_input(self):
+        error_text = ""
+
+        result = identify_exception(error_text)
+
+        self.assertIsNone(result)    
